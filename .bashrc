@@ -34,6 +34,7 @@ bind "set completion-ignore-case on"
 alias ..='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
+alias shutdown='sudo shutdown -h now'
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'

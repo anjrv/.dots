@@ -463,9 +463,6 @@ popup_during_fullscreen smart
 #####################################################################################################################
 
 
-# Settings for i3 next gap git
-# https://github.com/Airblader/i3/tree/gaps-next
-
 for_window [class="^.*"] border pixel 2
 gaps inner 5
 gaps outer 5
@@ -531,9 +528,9 @@ exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
 
 bar {
 
-    height 30
+    height 26
     workspace_buttons yes
-    font pango:Noto Sans 12
+    font pango:Noto Sans Mono 12
 
     #position top
     position bottom
