@@ -92,10 +92,13 @@ alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias jctl="journalctl -p 3 -xb"
 
 #config files
+alias vimconf="nvim ~/.config/nvim/init.vim"
+alias bashrc="nvim ~/.bashrc"
 alias i3conf="nvim ~/.config/i3/config"
 alias i3statusconf="nvim ~/.config/i3/i3status.conf"
 alias picomconf="nvim ~/.config/i3/picom.conf"
 alias alacrittyconf="nvim ~/.config/alacritty/alacritty.yml"
+alias qutebrowserconf="nvim ~/.config/qutebrowser/config.py"
 
 #dotfiles repo
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dots --work-tree=$HOME"

@@ -11,7 +11,7 @@ call plug#begin('~/.config/nvim/bundle')
   Plug 'vim-pandoc/vim-pandoc'
   Plug 'vim-pandoc/vim-pandoc-syntax'
   Plug 'conornewton/vim-pandoc-markdown-preview'
-  Plug 'RRethy/vim-hexokinase'
+  Plug 'RRethy/vim-hexokinase', { 'do' : 'make hexokinase' }
   Plug 'preservim/nerdtree'
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
   Plug 'ryanoasis/vim-devicons'
@@ -30,6 +30,7 @@ set expandtab
 set smarttab
 set autoindent
 set noswapfile
+set mouse=a
 
 " Remove trailing whitespace
 autocmd BufWritePre * %s/\s\+$//e

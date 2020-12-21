@@ -1816,7 +1816,7 @@ c.url.searchengines = {
                        'gh':'https://github.com/search?q={}',
                        'g':'https://google.com/search?q={}',
                        'aw':'https://archlinux.org/search?q={}',
-                       'r':'https://reddit.com/r/{}',
+                       'r':'https://old.reddit.com/r/{}',
                        'yt':'https://youtube.com/results?search_query={}',
                       }
 
