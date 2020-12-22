@@ -30,11 +30,14 @@ fi
 #ignore upper and lowercase when TAB completion
 bind "set completion-ignore-case on"
 
+#system
+alias shutdown='sudo shutdown -h now'
+alias lock='betterlockscreen -l dimblur'
+
 #list
 alias ..='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
-alias shutdown='sudo shutdown -h now'
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'

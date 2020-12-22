@@ -7,6 +7,7 @@ endif
 call plug#begin('~/.config/nvim/bundle')
   Plug 'neoclide/coc.nvim'
   Plug 'dracula/vim'
+  Plug 'vimwiki/vimwiki'
   Plug 'lervag/vimtex'
   Plug 'vim-pandoc/vim-pandoc'
   Plug 'vim-pandoc/vim-pandoc-syntax'
@@ -17,12 +18,15 @@ call plug#begin('~/.config/nvim/bundle')
   Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
+let mapleader = ","
+
 filetype plugin indent on
 set clipboard+=unnamedplus
 set encoding=utf-8
 set hidden
 set nobackup
 set nowritebackup
+set nocompatible
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
