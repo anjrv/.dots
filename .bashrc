@@ -2,7 +2,6 @@
 # ~/.bashrc
 #
 
-# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 export HISTCONTROL=ignoreboth:erasedups
@@ -68,12 +67,8 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 #add new fonts
 alias update-fc='sudo fc-cache -fv'
 
-#hardware info --short
-alias hw="hwinfo --short"
-
 #skip integrity check
 alias yayskip='yay -S --mflags --skipinteg'
-alias trizenskip='trizen -S --skipinteg'
 
 #check vulnerabilities microcode
 alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
@@ -105,13 +100,6 @@ alias qutebrowserconf="nvim ~/.config/qutebrowser/config.py"
 
 #dotfiles repo
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dots --work-tree=$HOME"
-
-#maintenance
-alias big="expac -H M '%m\t%n' | sort -h | nl"
-alias downgrada="sudo downgrade --ala-url https://bike.seedhost.eu/arcolinux/"
-
-#systeminfo
-alias probe="sudo -E hw-probe -all -upload"
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
