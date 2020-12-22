@@ -51,7 +51,7 @@ set $right l
 #exec --no-startup-id xrandr --output DVI-I-0 --right-of HDMI-0 --auto
 #exec --no-startup-id xrandr --output DVI-1 --right-of DVI-0 --auto
 #exec --no-startup-id xrandr --output DVI-D-1 --right-of DVI-I-1 --auto
-exec --no-startup-id xrandr --output DP1 --primary --mode 1366x768 --pos 2560x672 --rotate normal --output HDMI1 --mode 2560x1440 --pos 0x0 --rotate normal --output HDMI2 --off --output VIRTUAL1 --off
+exec --no-startup-id xrandr --output DP1 --mode 1366x768 --pos 2560x672 --rotate normal --output HDMI1 --primary --mode 2560x1440 --pos 0x0 --rotate normal --output HDMI2 --off --output VIRTUAL1 --off
 
 set $firstMonitor HDMI1
 set $secondMonitor DP1
@@ -422,8 +422,8 @@ popup_during_fullscreen smart
 for_window [class="^.*"] border pixel 2
 gaps inner 5
 gaps outer 5
-smart_gaps on
-smart_borders on
+#smart_gaps on
+#smart_borders on
 
 
 #####################################################################################################################

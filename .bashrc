@@ -59,20 +59,13 @@ alias wget="wget -c"
 #merge new settings
 alias merge="xrdb -merge ~/.Xresources"
 
-alias pacman='sudo pacman --color auto'
-
 #grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 #add new fonts
 alias update-fc='sudo fc-cache -fv'
 
-#skip integrity check
-alias yayskip='yay -S --mflags --skipinteg'
-
-#check vulnerabilities microcode
-alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
-
+alias pacman='sudo pacman --color auto'
 #get fastest mirrors in your neighborhood
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
 alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
