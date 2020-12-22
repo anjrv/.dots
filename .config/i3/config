@@ -286,8 +286,7 @@ bindsym $mod+F2 exec qutebrowser
 bindsym $mod+Shift+F2 exec chromium
 
 # Editors
-bindsym $mod+F3 exec alacritty -e 'nvim'
-bindsym $mod+Shift+F3 exec code
+bindsym $mod+F3 exec code
 
 # Social
 bindsym $mod+F4 exec thunderbird
@@ -298,8 +297,8 @@ bindsym $mod+F4 exec thunderbird
 #####################################################################################################################
 
 
-bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures'
-bindsym Shift+Print exec --no-startup-id scrot -u -e 'mv $f ~/Pictures'
+bindsym Shift+Print exec --no-startup-id scrot -e 'mv $f ~/Pictures'
+bindsym Print exec --no-startup-id scrot -u -e 'mv $f ~/Pictures'
 bindsym Ctrl+Print exec --no-startup-id scrot -s -e 'mv $f ~/Pictures'
 
 
