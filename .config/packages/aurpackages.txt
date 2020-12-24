@@ -1,0 +1,9 @@
+autotiling
+betterlockscreen
+droidcam
+nerd-fonts-droid-sans-mono
+spotify
+timeshift
+v4l2loopback-utils
+yay-git
+zoom
