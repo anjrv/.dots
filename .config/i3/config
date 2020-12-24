@@ -241,7 +241,7 @@ exec_always --no-startup-id autotiling
 # TRAY APPLICATIONS
 
 # bluetooth
-exec --no-startup-id blueberry-tray
+exec --no-startup-id blueman-tray
 
 # network
 exec --no-startup-id nm-applet
