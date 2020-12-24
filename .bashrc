@@ -124,4 +124,4 @@ ex ()
   fi
 }
 
-
+eval "$(starship init bash)"

@@ -3,6 +3,7 @@ betterlockscreen
 droidcam
 nerd-fonts-droid-sans-mono
 spotify
+starship
 timeshift
 v4l2loopback-utils
 yay-git
