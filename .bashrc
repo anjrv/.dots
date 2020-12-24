@@ -66,7 +66,8 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias update-fc='sudo fc-cache -fv'
 
 alias pacman='sudo pacman --color auto'
-alias packagelist='pacman -Q > ~/.config/packages/packages.txt'
+alias paclist='pacman -Qqen > ~/.config/packages/pacmanpackages.txt'
+alias aurlist='pacman -Qqem > ~/.config/packages/aurpackages.txt'
 #get fastest mirrors in your neighborhood
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
 alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
@@ -78,7 +79,7 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
 #orphans
-alias orphans='pacman -Qtdq'
+alias orphans='pacman -Qdt'
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
 #get the error messages from journalctl
