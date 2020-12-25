@@ -1,7 +1,7 @@
 * {
     font: "Noto Sans Mono 14";
     foreground: rgba ( 248, 248, 242, 100 % );
-    background: rgba ( 40, 42, 54, 90 % );
+    background: rgba ( 40, 42, 54, 100 % );
     background-color: @background;
     active-background: @background;
     urgent-background: rgba ( 255, 85, 85, 100 % );
@@ -14,7 +14,7 @@
 
 #window {
     background-color: @background;
-    border:           1;
+    border:           0;
     border-radius: 0;
     border-color: @bordercolor;
     padding:          5;
