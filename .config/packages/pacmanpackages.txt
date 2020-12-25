@@ -14,7 +14,6 @@ bluez-utils
 breeze
 chromium
 code
-deluge
 dialog
 discord
 dosfstools
@@ -54,7 +53,6 @@ neovim
 network-manager-applet
 networkmanager
 nodejs
-notepadqq
 noto-fonts
 npm
 os-prober
@@ -66,6 +64,7 @@ pkgconf
 pulseaudio-bluetooth
 python-pip
 python2
+qbittorrent
 qutebrowser
 ranger
 reflector
