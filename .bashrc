@@ -30,7 +30,7 @@ fi
 bind "set completion-ignore-case on"
 
 #system
-alias shutdown='sudo shutdown -h now'
+alias shutdown='sudo shutdown now'
 alias lock='betterlockscreen -l dimblur'
 
 #list
