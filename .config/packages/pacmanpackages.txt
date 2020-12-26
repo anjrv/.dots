@@ -152,3 +152,4 @@ xorg-xwud
 xsel
 xterm
 youtube-dl
+zsh
