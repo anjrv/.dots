@@ -13,6 +13,7 @@ bluez
 bluez-utils
 breeze
 chromium
+cmake
 code
 dialog
 discord
@@ -35,6 +36,7 @@ intel-ucode
 jdk-openjdk
 jre-openjdk
 kdenlive
+ladspa
 libtool
 linux
 linux-firmware
@@ -55,6 +57,7 @@ networkmanager
 nodejs
 noto-fonts
 npm
+opencv
 os-prober
 p7zip
 pandoc
@@ -64,12 +67,16 @@ pkgconf
 pulseaudio-bluetooth
 python-pip
 python2
+python2-pip
 qbittorrent
 qutebrowser
 ranger
 reflector
 rofi
+rtaudio
 scrot
+sdl_image
+sox
 steam
 sudo
 sxiv

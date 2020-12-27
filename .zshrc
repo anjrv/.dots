@@ -1,9 +1,3 @@
-# Path to your oh-my-zsh installation.
-export ZSH="/home/anjrv/.oh-my-zsh"
-
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME=""
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -37,11 +31,13 @@ ZSH_THEME=""
 
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="dd/mm/yyyy"
-
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-source $ZSH/oh-my-zsh.sh
-export LANG=en_US.UTF-8
+ZSH_THEME=""
 PS1='[\W]\$ '
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+export LANG=en_US.UTF-8
+export ZSH="/home/anjrv/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
 
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
@@ -66,19 +62,14 @@ export WM="i3"
 export COLORTERM="truecolor"
 export PAGER="less"
 
-#system
 alias shutdown='sudo shutdown now'
 alias lock='betterlockscreen -l dimblur'
-
-#list
 alias ..='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
-alias l='ls'
-alias l.="ls -A | egrep '^\.'"
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -87,14 +78,8 @@ alias v='nvim'
 #readable output
 alias df='df -h'
 
-#use all cores
-alias uac="sh ~/.bin/main/000*"
-
 #continue download
 alias wget="wget -c"
-
-#merge new settings
-alias merge="xrdb -merge ~/.Xresources"
 
 #grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
@@ -102,6 +87,7 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 #add new fonts
 alias update-fc='sudo fc-cache -fv'
 
+#pacman
 alias pacman='sudo pacman --color auto'
 alias paclist='pacman -Qqen > ~/.config/packages/pacmanpackages.txt'
 alias aurlist='pacman -Qqem > ~/.config/packages/aurpackages.txt'
@@ -110,11 +96,6 @@ alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacma
 alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
-
-#recently installed
-alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
-alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
-
 #orphans
 alias orphans='pacman -Qdt'
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
@@ -134,8 +115,7 @@ alias qutebrowserconf="nvim ~/.config/qutebrowser/config.py"
 #dotfiles repo
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dots --work-tree=$HOME"
 
-# # ex = EXtractor for all kinds of archives
-# # usage: ex <file>
+# usage: ex <file>
 ex ()
 {
   if [ -f $1 ] ; then
