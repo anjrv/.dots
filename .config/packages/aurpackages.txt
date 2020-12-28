@@ -1,7 +1,6 @@
 autotiling
 betterlockscreen
 droidcam
-nerd-fonts-droid-sans-mono
 nerd-fonts-noto-sans-mono
 spotify
 starship
