@@ -57,7 +57,7 @@ augroup END
 " UI
 set termguicolors
 colorscheme dracula
-set guifont=DroidSansMono\ Nerd\ Font\ 11
+set guifont=NotoSansMono\ Nerd\ Font\ 11
 set cmdheight=2
 set noshowmode
 set number relativenumber
