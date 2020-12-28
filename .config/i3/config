@@ -238,7 +238,8 @@ font pango:Noto Mono Regular 14
 # Autotiling
 exec_always --no-startup-id autotiling
 
-# TRAY APPLICATIONS
+# Notifications
+exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
 # bluetooth
 exec --no-startup-id blueman-tray
