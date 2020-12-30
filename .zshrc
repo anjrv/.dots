@@ -53,6 +53,9 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
+GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+PATH="$PATH:$GEM_HOME/bin"
+
 export VISUAL="nvim"
 export READER="mupdf"
 export TERMINAL="alacritty"
@@ -105,9 +108,11 @@ alias jctl="journalctl -p 3 -xb"
 
 #config files
 alias vimconf="nvim ~/.config/nvim/init.vim"
-alias bashrc="nvim ~/.bashrc"
+alias bashconf="nvim ~/.bashrc"
+alias zshconf="nvim ~/.zshrc"
 alias i3conf="nvim ~/.config/i3/config"
 alias i3statusconf="nvim ~/.config/i3/i3status.conf"
+alias dunstconf="nvim ~/.config/dunst/dunstrc"
 alias picomconf="nvim ~/.config/i3/picom.conf"
 alias alacrittyconf="nvim ~/.config/alacritty/alacritty.yml"
 alias qutebrowserconf="nvim ~/.config/qutebrowser/config.py"

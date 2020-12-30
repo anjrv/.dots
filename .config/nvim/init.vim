@@ -2,6 +2,7 @@
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
         \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall
 endif
 
 call plug#begin('~/.config/nvim/bundle')
@@ -20,13 +21,25 @@ call plug#end()
 
 let mapleader = ","
 
+" Replace d cut with delete
+nnoremap x "_x
+nnoremap d "_d
+nnoremap D "_D
+vnoremap d "_d
+
+nnoremap <leader>d ""d
+nnoremap <leader>D ""D
+vnoremap <leader>d ""d
+
 filetype plugin indent on
+" Use system clipboard
 set clipboard+=unnamedplus
 set encoding=utf-8
 set hidden
 set nobackup
 set nowritebackup
 set nocompatible
+" Tabs
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
@@ -44,15 +57,6 @@ set showmatch
 
 " Movement
 autocmd InsertEnter * norm zz
-
-" Pmenu
-func! s:pmenu_colors() abort
-  highlight Normal guibg=NONE ctermbg=NONE
-endfunc
-
-augroup colorscheme_coc_setup | au!
-  au ColorScheme * call s:pmenu_colors()
-augroup END
 
 " UI
 set termguicolors
@@ -87,10 +91,6 @@ set smartcase
 " History
 set history=100
 set undolevels=1000
-
-" Providers
-let g:loaded_python_provider = 0
-let g:python3_host_prog = '/usr/bin/python'
 
 " Latex editing stuff
 let g:vimtex_view_method = 'mupdf'
