@@ -4,6 +4,7 @@ alsa-firmware
 alsa-utils
 autoconf
 automake
+awesome-terminal-fonts
 base
 bash-completion
 binutils
@@ -35,6 +36,7 @@ gvfs
 gvfs-smb
 htop
 i3-gaps
+i3blocks
 i3status
 imagemagick
 intel-ucode
@@ -64,6 +66,7 @@ network-manager-applet
 networkmanager
 nodejs
 noto-fonts
+noto-fonts-emoji
 npm
 opencv
 os-prober
@@ -90,6 +93,7 @@ sox
 steam
 sudo
 sxiv
+sysstat
 texinfo
 texlive-bibtexextra
 texlive-core
