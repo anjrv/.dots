@@ -1,10 +1,14 @@
 autotiling
 betterlockscreen
 droidcam
+minecraft-launcher
 nerd-fonts-noto-sans-mono
+parsec-bin
 spotify
 starship
+teams
 timeshift
+ttf-material-icons-git
 v4l2loopback-utils
 yay-git
 zoom

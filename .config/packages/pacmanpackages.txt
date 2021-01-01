@@ -31,15 +31,20 @@ gnome-icon-theme
 groff
 grub
 gtk-engines
+gvfs
+gvfs-smb
 htop
 i3-gaps
 i3status
 imagemagick
 intel-ucode
+intellij-idea-community-edition
 jdk-openjdk
+jdk8-openjdk
 jre-openjdk
 kdenlive
 ladspa
+libreoffice-still
 libtool
 linux
 linux-firmware
@@ -77,6 +82,8 @@ ranger
 reflector
 rofi
 rtaudio
+ruby
+screenkey
 scrot
 sdl_image
 sox
@@ -107,6 +114,7 @@ w3m
 wget
 which
 wireless_tools
+wmctrl
 wpa_supplicant
 xclip
 xdg-user-dirs
