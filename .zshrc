@@ -54,7 +54,9 @@ if [ -d "$HOME/.local/bin" ] ;
 fi
 
 GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
-PATH="$PATH:$GEM_HOME/bin"
+if [ -d "$GEM_HOME/bin" ] ;
+  then PATH="$GEM_HOME/bin:$PATH"
+fi
 
 export VISUAL="nvim"
 export READER="mupdf"
