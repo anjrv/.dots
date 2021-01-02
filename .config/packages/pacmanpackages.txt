@@ -16,6 +16,7 @@ breeze
 chromium
 cmake
 code
+cpupower
 dialog
 discord
 dmenu
@@ -113,6 +114,7 @@ thunar-volman
 thunderbird
 tree
 unzip
+vi
 volumeicon
 w3m
 wget

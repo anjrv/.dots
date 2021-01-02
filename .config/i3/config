@@ -100,7 +100,7 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 # bindsym $mod+d exec --no-startup-id dmenu_run
 
 # start rofi small
-bindsym $mod+d exec --no-startup-id rofi -show run -font "Noto Sans 14"
+bindsym $mod+d exec --no-startup-id rofi -disable-history -show drun -show-icons -font "Noto Sans 14"
 
 
 #####################################################################################################################
@@ -485,9 +485,9 @@ exec_always --no-startup-id picom --experimental-backends --config ~/.config/i3/
 
 bar {
 
-    height 26
+    height 28
     workspace_buttons yes
-    font pango:Noto Sans Mono 12
+    font pango:Noto Sans Mono 14
 
     #position top
     position bottom

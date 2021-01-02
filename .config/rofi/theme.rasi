@@ -1,22 +1,30 @@
 * {
-    font: "Noto Sans Mono 14";
-    foreground: rgba ( 248, 248, 242, 100 % );
-    background: rgba ( 40, 42, 54, 100 % );
-    background-color: @background;
-    active-background: @background;
-    urgent-background: rgba ( 255, 85, 85, 100 % );
-    selected-background: rgba ( 98, 114, 164, 100 % );
+    font:                       "Noto Sans Mono 14";
+    foreground: rgba            ( 248, 248, 242, 100 % );
+    background: rgba            ( 40, 42, 54, 100 % );
+    background-color:           @background;
+    active-background:          @background;
+    urgent-background:          rgba ( 255, 85, 85, 100 % );
+    selected-background:        rgba ( 68, 71, 90, 100 % );
     selected-urgent-background: @urgent-background;
     selected-active-background: @selected-background;
-    separatorcolor: @active-background;
-    bordercolor: rgba ( 255, 85, 85, 100 % );
+    separatorcolor:             @active-background;
+    bordercolor:                rgba ( 255, 85, 85, 100 % );
 }
 
 #window {
+    location:         south west;
+    anchor:           south west;
+    height:           50%;
+    width:            18%;
+    x-offset:         0px;
+    y-offset:         -28px;
+    orientation:      horizontal;
+    children:         [mainbox];
     background-color: @background;
     border:           0;
-    border-radius: 0;
-    border-color: @bordercolor;
+    border-radius:    0;
+    border-color:     @bordercolor;
     padding:          5;
 }
 #mainbox {
