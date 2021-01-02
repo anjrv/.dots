@@ -238,6 +238,9 @@ font pango:Noto Mono Regular 14
 # Autotiling
 exec_always --no-startup-id autotiling
 
+# File system
+exec --no-startup-id thunar --daemon
+
 # Notifications
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
