@@ -80,32 +80,23 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias v='nvim'
 
-#readable output
 alias df='df -h'
-
-#continue download
 alias wget="wget -c"
-
-#grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
-#add new fonts
 alias update-fc='sudo fc-cache -fv'
 
 #pacman
 alias pacman='sudo pacman --color auto'
 alias paclist='pacman -Qqen > ~/.config/packages/pacmanpackages.txt'
 alias aurlist='pacman -Qqem > ~/.config/packages/aurpackages.txt'
-#get fastest mirrors in your neighborhood
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
 alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
-#orphans
 alias orphans='pacman -Qdt'
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
-#get the error messages from journalctl
+#ctl errors
 alias jctl="journalctl -p 3 -xb"
 
 #config files

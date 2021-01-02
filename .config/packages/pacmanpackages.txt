@@ -49,12 +49,15 @@ jdk8-openjdk
 jre-openjdk
 kdenlive
 ladspa
+lib32-dbus
+lib32-vkd3d
 libgsf
 libreoffice-still
 libtool
 linux
 linux-firmware
 linux-headers
+lutris
 lxappearance
 m4
 make
