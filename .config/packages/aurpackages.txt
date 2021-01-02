@@ -1,8 +1,10 @@
+ananicy
 autotiling
 betterlockscreen
 droidcam
 minecraft-launcher
 nerd-fonts-noto-sans-mono
+nohang-git
 parsec-bin
 spotify
 starship

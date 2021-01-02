@@ -60,12 +60,16 @@ m4
 make
 mlocate
 movit
+mpc
+mpd
 mpv
 mtools
 mupdf
 nano
+ncmpcpp
 neofetch
 neovim
+net-tools
 network-manager-applet
 networkmanager
 nodejs
