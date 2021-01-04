@@ -97,6 +97,7 @@ reflector
 rofi
 rtaudio
 ruby
+rust
 screenkey
 scrot
 sdl_image

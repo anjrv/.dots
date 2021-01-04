@@ -23,12 +23,10 @@
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
 
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
 
+ENABLE_CORRECTION="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="dd/mm/yyyy"
 ZSH_THEME=""
@@ -62,7 +60,7 @@ export VISUAL="nvim"
 export READER="mupdf"
 export TERMINAL="alacritty"
 export CODEEDITOR="code"
-export BROWSER="chromium"
+export BROWSER="brave"
 export WM="i3"
 export COLORTERM="truecolor"
 export PAGER="less"
@@ -99,9 +97,8 @@ alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 #ctl errors
 alias jctl="journalctl -p 3 -xb"
 
-#config files
+#configs
 alias vimconf="nvim ~/.config/nvim/init.vim"
-alias bashconf="nvim ~/.bashrc"
 alias zshconf="nvim ~/.zshrc"
 alias i3conf="nvim ~/.config/i3/config"
 alias i3blocksconf="nvim ~/.config/i3/i3blocks.conf"
@@ -109,8 +106,6 @@ alias dunstconf="nvim ~/.config/dunst/dunstrc"
 alias picomconf="nvim ~/.config/i3/picom.conf"
 alias alacrittyconf="nvim ~/.config/alacritty/alacritty.yml"
 alias qutebrowserconf="nvim ~/.config/qutebrowser/config.py"
-
-#dotfiles repo
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dots --work-tree=$HOME"
 
 # usage: ex <file>

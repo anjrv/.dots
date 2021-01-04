@@ -273,8 +273,8 @@ bindsym $mod+Shift+Return exec alacritty -e 'ranger'
 bindsym Ctrl+Shift+Escape exec alacritty -e 'htop'
 
 # Browsers
-bindsym $mod+F2 exec qutebrowser
-bindsym $mod+Shift+F2 exec chromium
+bindsym $mod+F2 exec brave
+bindsym $mod+Shift+F2 exec qutebrowser
 
 # Editors
 bindsym $mod+F3 exec code

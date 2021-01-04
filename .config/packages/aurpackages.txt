@@ -1,6 +1,7 @@
 ananicy
 autotiling
 betterlockscreen
+brave-bin
 droidcam
 minecraft-launcher
 nerd-fonts-noto-sans-mono
