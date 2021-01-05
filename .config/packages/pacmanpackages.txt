@@ -9,6 +9,7 @@ base
 bash-completion
 binutils
 bison
+bleachbit
 blueman
 bluez
 bluez-utils
@@ -27,10 +28,13 @@ fakeroot
 feh
 ffmpegthumbnailer
 flex
+fuse2
 galculator
 gcc
+geoclue
 git
 gnome-icon-theme
+gnome-keyring
 groff
 grub
 gtk-engines
@@ -47,10 +51,12 @@ intellij-idea-community-edition
 jdk-openjdk
 jdk8-openjdk
 jre-openjdk
-kdenlive
+kcmutils
+kirigami2
 ladspa
 lib32-dbus
 lib32-vkd3d
+libgepub
 libgsf
 libreoffice-still
 libtool
@@ -91,6 +97,7 @@ python-pip
 python2
 python2-pip
 qbittorrent
+qt5-webkit
 qutebrowser
 ranger
 reflector
@@ -101,6 +108,7 @@ rust
 screenkey
 scrot
 sdl_image
+smartmontools
 sox
 steam
 sudo
