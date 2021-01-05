@@ -202,9 +202,9 @@ bindsym $mod+a focus parent
 #####################################################################################################################
 
 
-bindsym $mod+r mode "resize"
+bindsym $mod+r mode "R"
 
-mode "resize" {
+mode "R" {
         bindsym $left       resize shrink width 10 px or 10 ppt
         bindsym $down       resize grow height 10 px or 10 ppt
         bindsym $up         resize shrink height 10 px or 10 ppt
@@ -522,18 +522,18 @@ bar
     {
         background #282A36CC
         statusline #F8F8F2
-        separator  #44475A
+        separator  #282A36CC
 
-        focused_workspace  #44475A #44475ACC #F8F8F2
-        active_workspace   #282A36 #44475ACC #F8F8F2
-        inactive_workspace #282A36 #282A36CC #BFBFBF
-        urgent_workspace   #FF5555 #FF5555 #F8F8F2
-        binding_mode       #FF5555 #FF5555CC #F8F8F2
+        focused_workspace  #282A36CC #282A36CC #FF79C6
+        active_workspace   #282A36CC #282A36CC #FF79C6
+        inactive_workspace #282A36CC #282A36CC #BFBFBF
+        urgent_workspace   #282A36CC #FF5555CC #F8F8F2
+        binding_mode       #FF5555   #FF5555   #F8F8F2
     }
 }
 
   # class                 border  bground text    indicator child_border
-	client.focused          #FF5555 #6272A4 #F8F8F2 #FF5555   #FF5555
+	client.focused          #FF5555 #6272A4 #F8F8F2 #FF79C6   #FF79C6
 	client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
 	client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
 	client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555

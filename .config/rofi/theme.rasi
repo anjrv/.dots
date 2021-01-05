@@ -1,7 +1,7 @@
 * {
     font:                       "Noto Sans Mono 14";
-    foreground: rgba            ( 248, 248, 242, 100 % );
-    background: rgba            ( 40, 42, 54, 100 % );
+    foreground:                 rgba ( 248, 248, 242, 100 % );
+    background:                 rgba ( 0, 0, 0, 0 % );
     background-color:           @background;
     active-background:          @background;
     urgent-background:          rgba ( 255, 85, 85, 100 % );
@@ -21,7 +21,7 @@
     y-offset:         -28px;
     orientation:      horizontal;
     children:         [mainbox];
-    background-color: @background;
+    background-color: rgba ( 40, 42, 54, 80 % );
     border:           0;
     border-radius:    0;
     border-color:     @bordercolor;
