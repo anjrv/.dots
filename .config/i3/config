@@ -397,11 +397,11 @@ bindsym $mod+shift+b exec --no-startup-id i3-msg border toggle
 
 # Changing border style
 bindsym $mod+t border normal
-bindsym $mod+y border pixel 1
+bindsym $mod+y border pixel 2
 bindsym $mod+u border none
 
 #new_window pixel 1
-new_window pixel 1
+new_window pixel 2
 #new_window none
 
 #new_float pixel 1
@@ -423,7 +423,7 @@ popup_during_fullscreen smart
 #####################################################################################################################
 
 
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 gaps inner 5
 gaps outer 5
 #smart_gaps on
