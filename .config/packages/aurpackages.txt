@@ -15,5 +15,6 @@ thunar-shares-plugin
 timeshift
 ttf-material-icons-git
 v4l2loopback-utils
+vimix-cursors
 yay-git
 zoom
