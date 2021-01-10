@@ -65,7 +65,8 @@ export WM="i3"
 export COLORTERM="truecolor"
 export PAGER="less"
 
-alias shutdown='sudo shutdown now'
+alias sd='sudo shutdown now'
+alias sr='sudo reboot'
 alias lock='betterlockscreen -l dimblur'
 alias ..='cd ..'
 alias ..2='cd ../..'
@@ -106,7 +107,9 @@ alias dunstconf="nvim ~/.config/dunst/dunstrc"
 alias picomconf="nvim ~/.config/i3/picom.conf"
 alias alacrittyconf="nvim ~/.config/alacritty/alacritty.yml"
 alias qutebrowserconf="nvim ~/.config/qutebrowser/config.py"
+
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dots --work-tree=$HOME"
+alias wiki="nvim ~/vimwiki/index.wiki"
 
 # usage: ex <file>
 ex ()

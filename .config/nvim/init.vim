@@ -14,13 +14,17 @@ set nowritebackup
 set nocompatible
 
 " Tabs
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 set smarttab
 set autoindent
+
+" No editing swap file
 set noswapfile
+
+" Whether mouse is enabled
 set mouse=a
 
 " Remove trailing whitespace

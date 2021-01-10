@@ -270,7 +270,7 @@ bindsym --release $mod+Escape exec xkill
 
 # Files / Programs
 bindsym $mod+Shift+Return exec alacritty -e 'ranger'
-bindsym Ctrl+Shift+Escape exec alacritty -e 'htop'
+bindsym Ctrl+Shift+Escape exec alacritty -e 'bashtop'
 
 # Browsers
 bindsym $mod+F2 exec brave
