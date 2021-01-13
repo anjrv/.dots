@@ -7,6 +7,7 @@ automake
 awesome-terminal-fonts
 base
 bash-completion
+bashtop
 binutils
 bison
 blueman
@@ -20,9 +21,11 @@ cpupower
 dialog
 discord
 dmenu
+dnsmasq
 dosfstools
 dunst
 efibootmgr
+elinks
 fakeroot
 feh
 ffmpegthumbnailer
@@ -100,6 +103,7 @@ python2-pip
 qbittorrent
 qt5-webkit
 qutebrowser
+r
 ranger
 reflector
 rofi

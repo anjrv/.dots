@@ -3,13 +3,17 @@ autotiling
 betterlockscreen
 brave-bin
 droidcam
+figma-linux
+hypnotix
 minecraft-launcher
 nerd-fonts-noto-sans-mono
 nohang-git
 parsec-bin
+rstudio-desktop-bin
 spotify
 stacer
 starship
+stremio
 teams
 thunar-shares-plugin
 timeshift
