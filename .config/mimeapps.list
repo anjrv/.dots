@@ -51,3 +51,4 @@ x-scheme-handler/mailto=userapp-Thunderbird.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=mupdf.desktop;
 application/x-bittorrent=qbittorrent.desktop;
+application/xml=nvim.desktop;

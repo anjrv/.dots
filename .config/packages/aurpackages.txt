@@ -10,6 +10,7 @@ nerd-fonts-noto-sans-mono
 nohang-git
 parsec-bin
 rstudio-desktop-bin
+slack-desktop
 spotify
 stacer
 starship

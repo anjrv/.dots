@@ -1,4 +1,4 @@
-# Uncomment the following line to use case-sensitive completion.
+#xrandr --output HDMI-1 --mode 2560x1440 --pos 0x0 --rotate normal --output DP-1 --mode 1366x768 --pos 2560x672 --rotate normal --output HDMI-2 --off Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
@@ -38,13 +38,13 @@ export ZSH="/home/anjrv/.oh-my-zsh"
 source $ZSH/oh-my-zsh.sh
 
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+export EDITOR='vim'
 else
-  export EDITOR='nvim'
+export EDITOR='nvim'
 fi
 
 if [ -d "$HOME/.bin" ] ;
-  then PATH="$HOME/.bin:$PATH"
+then PATH="$HOME/.bin:$PATH"
 fi
 
 if [ -d "$HOME/.local/bin" ] ;
@@ -55,6 +55,9 @@ GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 if [ -d "$GEM_HOME/bin" ] ;
   then PATH="$GEM_HOME/bin:$PATH"
 fi
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 export VISUAL="nvim"
 export READER="mupdf"

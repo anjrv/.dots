@@ -2,6 +2,7 @@ adobe-source-sans-pro-fonts
 alacritty
 alsa-firmware
 alsa-utils
+arandr
 autoconf
 automake
 awesome-terminal-fonts
@@ -29,6 +30,7 @@ elinks
 fakeroot
 feh
 ffmpegthumbnailer
+filezilla
 flex
 fuse2
 galculator
@@ -86,7 +88,9 @@ network-manager-applet
 networkmanager
 nodejs
 noto-fonts
+noto-fonts-cjk
 noto-fonts-emoji
+noto-fonts-extra
 npm
 ntfs-3g
 opencv
@@ -152,7 +156,6 @@ xclip
 xdg-user-dirs
 xdg-utils
 xdotool
-xf86-video-intel
 xf86-video-vesa
 xorg-bdftopcf
 xorg-docs
