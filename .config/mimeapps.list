@@ -52,3 +52,4 @@ message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=mupdf.desktop;
 application/x-bittorrent=qbittorrent.desktop;
 application/xml=nvim.desktop;
+text/x-r-source=code-oss.desktop;

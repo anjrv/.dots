@@ -4,6 +4,7 @@ betterlockscreen
 brave-bin
 droidcam
 figma-linux
+google-chrome
 hypnotix
 minecraft-launcher
 nerd-fonts-noto-sans-mono

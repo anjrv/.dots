@@ -102,7 +102,6 @@ alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias jctl="journalctl -p 3 -xb"
 
 #configs
-alias vimconf="nvim ~/.config/nvim/init.vim"
 alias zshconf="nvim ~/.zshrc"
 alias i3conf="nvim ~/.config/i3/config"
 alias i3blocksconf="nvim ~/.config/i3/i3blocks.conf"
