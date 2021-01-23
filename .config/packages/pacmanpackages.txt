@@ -152,6 +152,7 @@ which
 wireless_tools
 wmctrl
 wpa_supplicant
+xarchiver
 xclip
 xdg-user-dirs
 xdg-utils

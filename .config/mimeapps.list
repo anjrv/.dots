@@ -53,3 +53,4 @@ application/pdf=mupdf.desktop;
 application/x-bittorrent=qbittorrent.desktop;
 application/xml=nvim.desktop;
 text/x-r-source=code-oss.desktop;
+application/json=code-oss.desktop;

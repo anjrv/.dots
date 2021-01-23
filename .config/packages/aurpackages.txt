@@ -3,8 +3,6 @@ autotiling
 betterlockscreen
 brave-bin
 droidcam
-figma-linux
-gluon-scene-builder11
 google-chrome
 hypnotix
 minecraft-launcher
