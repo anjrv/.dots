@@ -9,11 +9,11 @@ set nu rnu
 set wrap
 set confirm
 set ruler
-set cursorline
 set scl=no
 set shortmess+=c
 set pumheight=5
 syntax on
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
 
 " Brackets
 set showmatch

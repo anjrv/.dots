@@ -4,11 +4,14 @@ betterlockscreen
 brave-bin
 droidcam
 google-chrome
+heroku-cli
 hypnotix
+insomnia
 minecraft-launcher
 nerd-fonts-noto-sans-mono
 nohang-git
 parsec-bin
+postman-bin
 rstudio-desktop-bin
 slack-desktop
 spotify

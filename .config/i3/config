@@ -487,48 +487,26 @@ exec_always --no-startup-id picom --experimental-backends --config ~/.config/i3/
 
 bar
 {
-    id bar-tray
-    height 28
-    workspace_buttons         no
-    font pango:Noto Sans Mono 14
-    i3bar_command             i3bar -t
-    position                  top
-    output                    $firstMonitor
-    tray_output               $firstMonitor
-    tray_padding              0
-    mode                      hide
-    hidden_state              hide
-    modifier                  Mod5
-
-    colors
-    {
-        background    #00000000
-        binding_mode  #00000000 #00000000 #00000000
-    }
-}
-
-bar
-{
     id bar-main
     height 28
     workspace_buttons yes
     font pango:Noto Sans Mono 14
     status_command  i3blocks -c ~/.config/i3/i3blocks.conf
-    i3bar_command   i3bar -t
+    i3bar_command   i3bar
     position bottom
-    tray_output none
+    tray_output primary
 
     colors
     {
-        background #282A36CC
+        background #282A36
         statusline #F8F8F2
-        separator  #282A36CC
+        separator  #282A36
 
-        focused_workspace  #282A36CC #282A36CC #FF79C6
-        active_workspace   #282A36CC #282A36CC #FF79C6
-        inactive_workspace #282A36CC #282A36CC #BFBFBF
-        urgent_workspace   #282A36CC #FF5555CC #F8F8F2
-        binding_mode       #FF5555   #FF5555   #F8F8F2
+        focused_workspace  #282A36 #282A36 #FF79C6
+        active_workspace   #282A36 #282A36 #FF79C6
+        inactive_workspace #282A36 #282A36 #BFBFBF
+        urgent_workspace   #282A36 #FF5555 #F8F8F2
+        binding_mode       #FF5555 #FF5555 #F8F8F2
     }
 }
 

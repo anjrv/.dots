@@ -2,6 +2,7 @@ adobe-source-sans-pro-fonts
 alacritty
 alsa-firmware
 alsa-utils
+apache
 arandr
 autoconf
 automake
@@ -36,6 +37,7 @@ fuse2
 galculator
 gcc
 geoclue
+gimp
 git
 gnome-icon-theme
 gnome-keyring
@@ -56,8 +58,10 @@ intellij-idea-community-edition
 jdk-openjdk
 jdk8-openjdk
 jre-openjdk
+jupyterlab
 kcmutils
 kirigami2
+kvantum-qt5
 ladspa
 lib32-dbus
 lib32-vkd3d
@@ -98,8 +102,12 @@ os-prober
 p7zip
 pandoc
 patch
+pgadmin4
+php-apache
+phppgadmin
 picom
 pkgconf
+postgresql
 pulseaudio-bluetooth
 python-pip
 python2
@@ -145,6 +153,7 @@ tree
 tumbler
 unzip
 vi
+virtualbox
 volumeicon
 w3m
 wget
