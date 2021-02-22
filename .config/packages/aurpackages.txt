@@ -22,6 +22,7 @@ teams
 thunar-shares-plugin
 timeshift
 ttf-material-icons-git
+ttf-ms-fonts
 v4l2loopback-utils
 vimix-cursors
 yay-git
